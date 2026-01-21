@@ -1,4 +1,4 @@
-# anuragportfolio
+# Anurag Portfolio
 
 A new Flutter project.
 
