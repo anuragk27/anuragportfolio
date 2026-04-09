@@ -41,7 +41,7 @@ class AboutPage extends StatelessWidget {
         _sectionLabel('About Me'),
         const SizedBox(height: 16),
         const Text(
-          'Passionate Flutter Developer',
+          'Passionate Software Developer',
           style: TextStyle(
             color: Colors.white,
             fontSize: 36,
@@ -50,19 +50,19 @@ class AboutPage extends StatelessWidget {
         ),
         const SizedBox(height: 20),
         const Text(
-          'I\'m Anurag, a Flutter developer with a passion for building '
+          'I\'m Anurag, a Software Developer with a passion for building '
           'beautiful, performant mobile and web applications. I love clean '
           'architecture, great UI/UX, and writing maintainable code.',
           style: TextStyle(color: Colors.white60, fontSize: 16, height: 1.8),
         ),
         const SizedBox(height: 16),
-        const Text(
-          'When I\'m not coding, you\'ll find me exploring new tech, '
-          'contributing to open source, or sketching UI ideas.',
-          style: TextStyle(color: Colors.white60, fontSize: 16, height: 1.8),
-        ),
+        // const Text(
+        //   'When I\'m not coding, you\'ll find me exploring new tech, '
+        //   'contributing to open source, or sketching UI ideas.',
+        //   style: TextStyle(color: Colors.white60, fontSize: 16, height: 1.8),
+        // ),
         const SizedBox(height: 32),
-        _buildInfoRow(Icons.location_on_outlined, 'India'),
+        _buildInfoRow(Icons.location_on_outlined, 'Noida, India'),
         const SizedBox(height: 8),
         _buildInfoRow(Icons.school_outlined, 'B.Tech Computer Science'),
         const SizedBox(height: 8),

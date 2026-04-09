@@ -38,11 +38,11 @@ class _ContactPageState extends State<ContactPage> {
             textAlign: TextAlign.center,
           ),
           const SizedBox(height: 12),
-          const Text(
-            'Have a project in mind or just want to say hi? My inbox is always open.',
-            style: TextStyle(color: Colors.white60, fontSize: 16, height: 1.6),
-            textAlign: TextAlign.center,
-          ),
+          // const Text(
+          //   'Have a project in mind or just want to say hi? My inbox is always open.',
+          //   style: TextStyle(color: Colors.white60, fontSize: 16, height: 1.6),
+          //   textAlign: TextAlign.center,
+          // ),
           const SizedBox(height: 48),
           _buildField('Your Name', _nameController, false),
           const SizedBox(height: 20),

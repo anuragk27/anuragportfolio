@@ -37,7 +37,7 @@ class HeroSection extends StatelessWidget {
           ),
           const SizedBox(height: 16),
           Text(
-            'Flutter\nDeveloper.',
+            'Software\nDeveloper.',
             style: TextStyle(
               color: Colors.white,
               fontSize: isMobile ? 48 : 72,
@@ -57,7 +57,7 @@ class HeroSection extends StatelessWidget {
           const SizedBox(height: 40),
           Row(
             children: [
-              _buildButton('View Projects', const Color(0xFF6C63FF), () {}),
+              _buildButton('Projects', const Color(0xFF6C63FF), () {}),
               const SizedBox(width: 16),
               _buildOutlineButton('Contact Me', () {}),
             ],
@@ -75,7 +75,10 @@ class HeroSection extends StatelessWidget {
         padding: const EdgeInsets.symmetric(horizontal: 28, vertical: 16),
         shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(8)),
       ),
-      child: Text(label, style: const TextStyle(color: Colors.white, fontSize: 15)),
+      child: Text(
+        label,
+        style: const TextStyle(color: Colors.white, fontSize: 15),
+      ),
     );
   }
 
@@ -87,7 +90,10 @@ class HeroSection extends StatelessWidget {
         padding: const EdgeInsets.symmetric(horizontal: 28, vertical: 16),
         shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(8)),
       ),
-      child: Text(label, style: const TextStyle(color: Colors.white70, fontSize: 15)),
+      child: Text(
+        label,
+        style: const TextStyle(color: Colors.white70, fontSize: 15),
+      ),
     );
   }
 }
