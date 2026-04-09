@@ -1,12 +1,5 @@
 import 'package:flutter/material.dart';
-// import 'pages/home.dart';
-// import 'pages/about.dart';
-// import 'pages/projects.dart';
-// import 'pages/contact.dart';
-import '../sections/AboutPage.dart';
-import '../sections/ProjectsPage.dart';
-import '../sections/SkillsPage.dart';
-import '../sections/ContactPage.dart';
+import 'sections/home.dart';
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
@@ -14,10 +7,10 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'My Portfolio',
+      title: 'Anurag Portfolio',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(primarySwatch: Colors.blue),
-      home: const HomePage(),
+      home: const HomeScreen(),
     );
   }
 }
