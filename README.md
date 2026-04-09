@@ -1,6 +1,6 @@
-# Flutter Web Portfolio
+# My Portfolio
 
-A modern and responsive **portfolio website built using Flutter **. This project showcases my work, skills, and personal information with a clean UI and smooth user experience, optimized specifically for web.
+A modern and responsive **portfolio website built using Flutter**. This project showcases my work, skills, and personal information with a clean UI and smooth user experience, optimized specifically for web.
 
 ---
 
